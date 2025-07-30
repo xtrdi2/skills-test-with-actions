@@ -9,7 +9,7 @@
 
 # Test with Actions
 
-_Create workflows that enable you to use Continuous Integration (CI) for your projects._
+*Create workflows that enable you to use Continuous Integration (CI) for your projects._
 
 </header>
 
@@ -21,7 +21,7 @@ _Create workflows that enable you to use Continuous Integration (CI) for your pr
 
 ## Step 2: Fix the test
 
-_Great job adding the templated workflow! :tada:_
+*Great job adding the templated workflow! :tada:_
 
 Adding that file to this branch is enough for GitHub Actions to begin running CI on your repository.
 
@@ -33,7 +33,7 @@ You can follow along as GitHub Actions runs your job by going to the **Actions**
 
 When the tests finish, you'll see a red X :x: or a green check mark :heavy_check_mark: in the merge box. At that point, you can access the logs for the build job and its associated steps.
 
-_By looking at the logs, can you identify which tests failed?_ To find it, go to one of the failed builds and scroll through the log. Look for a section that lists all the unit tests. We're looking for the name of the test with an "x".
+*By looking at the logs, can you identify which tests failed?_ To find it, go to one of the failed builds and scroll through the log. Look for a section that lists all the unit tests. We're looking for the name of the test with an "x".
 
 <img alt="screenshot of a sample build log with the names of the tests blurred out" src=https://user-images.githubusercontent.com/16547949/65922013-e740a200-e3b1-11e9-8151-faf52c30201e.png width=400 />
 
