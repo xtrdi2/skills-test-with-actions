@@ -29,6 +29,10 @@ jobs:
         with:
           node-version: '18'  # or any version you prefer
 
+      - name: Install markdown lint dependencies
+        run: |
+          npm install remark-cli remark-preset-lint-consistent
+
       - name: Run markdown lint
         run: |
           npm install remark-cli remark-preset-lint-consistent
